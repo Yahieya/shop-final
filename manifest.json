@@ -1,0 +1,28 @@
+{
+  "name": "متجري الإلكتروني - E-Commerce Store",
+  "short_name": "متجري",
+  "description": "منصة تجارة إلكترونية شاملة مع دعم متعدد اللغات",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f0f23",
+  "theme_color": "#8a2be2",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["shopping", "business"],
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
