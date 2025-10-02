@@ -1,0 +1,13 @@
+# Render Blueprint for deploying the frontend from a subdirectory
+services:
+  - type: static_site
+    name: render-ikhtibar-frontend
+    rootDir: shop/111 - Copy
+    buildCommand: |
+      npm ci
+      npm run build
+    publishDir: dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18.18.0
+    pullRequestPreviewsEnabled: false
